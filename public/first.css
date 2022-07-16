@@ -4,6 +4,7 @@ body {
 }
 
 .main {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +23,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.main_btn {
+    position: absolute;
+    background-color: white;
+    bottom: 1rem;
 }
 
 .wedding {
@@ -47,4 +54,10 @@ body {
     margin-top: 3rem;
     height: 60%;
     object-fit: contain;
+}
+
+.sliderWrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
 }

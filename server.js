@@ -18,7 +18,3 @@ app.get('/First', (req, res) => {
 app.get('/Second', (req, res) => {
     res.render('second.html');
 });
-
-app.get('/Third', (req, res) => {
-    res.render('third.html');
-});
